@@ -113,4 +113,6 @@ rec {
   git-imerge = callPackage ./git-imerge { };
 
   git-crypt = callPackage ./git-crypt { };
+
+  git-up = callPackage ./git-up { };
 }
